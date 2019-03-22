@@ -67,7 +67,7 @@ import java.util.TreeSet;
     }
 
     private static final int MAX_DROPOUT = 3000;
-    private static final int MAX_MISORDER = 100;
+    private static final int MAX_MISORDER = 0;
     private static final int RTP_SEQ_MOD = 1<<16;
 
     private volatile int lastSequence; // last sequence number pop
